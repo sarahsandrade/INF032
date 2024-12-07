@@ -9,8 +9,8 @@ suporte = baixa_historica + intervalo * 0.3
 resistencia = baixa_historica + intervalo * 0.6
 
 if suporte <= preco_atual <= resistencia:
-    print(f"O suporte é {suporte:.2f}, a resistência é {resistencia:.2f}.")
-    print("O preço da ação está dentro da faixa de suporte-resistência.")
+    print(f"O suporte é {suporte}, a resistência é {resistencia}")
+    print("O preço da ação está dentro da faixa de suporte-resistência")
 else:
-    print(f"O suporte é {suporte:.2f}, a resistência é {resistencia:.2f}.")
-    print("O preço da ação está fora da faixa de suporte-resistência.")
+    print(f"O suporte é {suporte}, a resistência é {resistencia}")
+    print("O preço da ação está fora da faixa de suporte-resistência")
